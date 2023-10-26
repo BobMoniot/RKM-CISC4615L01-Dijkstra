@@ -1,1 +1,2 @@
-
+This directory cpp contains C++ versions of the C code for the Dijkstra shortest path projects that are in directory cc.
+As of Oct. 26, 2023, only the code for Project 3 is here.  The file dijkstra_routes.cpp will be posted when it is ready.
