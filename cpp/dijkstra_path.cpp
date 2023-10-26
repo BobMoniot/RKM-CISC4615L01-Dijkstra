@@ -13,11 +13,11 @@ using namespace std;
 
 // Routines to convert between external alphabetic names and internal numbers
 
-int nodenum(char nodename) {
+inline int nodenum(char nodename) {
     return nodename - 'A';
 }
 
-char nodename(int nodenum) {
+inline char nodename(int nodenum) {
     return nodenum + 'A';
 }
 
