@@ -11,15 +11,6 @@ using namespace std;
 #include "shortest_path.h"
 #include "load_graph.h"
 
-// Routines to convert between external alphabetic names and internal numbers
-
-inline int nodenum(char nodename) {
-    return nodename - 'A';
-}
-
-inline char nodename(int nodenum) {
-    return nodenum + 'A';
-}
 
 void Usage(const char* myname) {
     cerr << "Usage: " << myname << " [-v] filename" << endl;
