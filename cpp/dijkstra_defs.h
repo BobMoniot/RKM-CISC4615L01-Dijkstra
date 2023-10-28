@@ -18,5 +18,13 @@ vector<vector<int>> dist     // dist[i][j] is the distance from i to j
 #endif
 ;
 
-int nodenum(char nodename);
-char nodename(int nodenum);
+
+// Routines to convert between external alphabetic names and internal numbers
+
+inline int nodenum(char nodename) {
+    return nodename - 'A';
+}
+
+inline char nodename(int nodenum) {
+    return nodenum + 'A';
+}
