@@ -12,7 +12,7 @@ int n,				// n=number of nodes
 #ifndef MAIN
 extern		// all non-main routines declare, main defines shared variables
 #endif
-vector<vector<int>> dist     // dist[i][j] is the distance from i to j
+vector< vector<int> > dist     // dist[i][j] is the distance from i to j
 #ifdef MAIN
 (MAX_NODES, vector<int>(MAX_NODES, 0))
 #endif
